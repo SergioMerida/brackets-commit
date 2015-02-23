@@ -1,0 +1,197 @@
+@font-face{
+    font-family: "Roboto";
+    src: url("Roboto-Light.ttf");
+}
+@font-face{
+    font-family: "DroidSansMono";
+    src: url("DroidSansMono.ttf");
+}
+
+@media print
+{
+    @page{
+        margin:none;
+    }
+    .no-print
+    {
+        display: none !important;
+    }
+    .col-md-2 {
+        width: 23%
+    }
+}
+
+body {
+    -webkit-print-color-adjust:exact;
+    font-family: Roboto;
+}
+
+.container-full {
+    margin-top: 40px;
+}
+
+.page1 {
+    margin-top: 400px;
+}
+
+.page2 {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.page3 {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.btn {
+    background-color: #464B51;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+/*First Page settings*/
+.autowebTitle{
+	display: table;
+	width: 100%;
+}
+
+.autowebLogo{
+	background-color: #464B51;
+	display: table-cell;
+	vertical-align: middle;
+    text-align: center;
+}
+.autowebTex{
+	background-color: #3FA9F3;
+	text-align: right;
+	padding-top: 20px;
+	padding-bottom: 20px;
+    padding-right: 30px;
+	font-size: 50px;
+	color: white;
+    font-family: Roboto;
+}
+
+.autowebTitleDescription{
+	text-align: right;
+	font-size: 20px;
+    padding-right: 30px;
+    font-family: Roboto;
+}
+
+.autoWebText {
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: right;
+}
+
+/*Footer settings*/
+.footer {
+    page-break-after:always;
+}
+
+.footers {
+    display: table;
+	width: 100%;
+}
+
+.footerImage {
+    background-color: #4d4d4d;
+	display: table-cell;
+	vertical-align: middle;
+    vertical-align: middle;
+    padding-left: 40px;
+}
+
+.footerLine {
+    background-color: #3ea9f5;
+    padding-bottom: 38px;
+    padding-left: 460px;
+    padding-right: 20px;
+    margin-right: -20px;
+}
+
+.footer1 {
+    margin-top: 432px;
+}
+
+.footer2 {
+    margin-top: 37px;
+}
+
+.footer3 {
+    margin-top: 684px;
+}
+
+/*Setting for page 2*/
+.lasText {
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+.firstScript {
+    background-color: #000000;
+    font-family: DroidSansMono;
+}
+
+.secondScript {
+    background-color: #000000;
+    font-family: DroidSansMono;
+}
+
+.thead {
+    text-align: right;
+    background-color: #b2b2b2;
+}
+
+.indentCode {
+    padding-left: 60px;
+}
+
+.indentScript {
+    padding-left: 20px;
+}
+
+.whiteEqual {
+    color: white;
+}
+
+.blueText {
+    color: #568da3;
+}
+
+.yellowText {
+    color: #dfbd45;
+}
+
+.redText {
+    color: #f92359;
+}
+
+.TitlePageTwo {
+    color: #3ea9f5;
+    font-size: 25px;
+    font-family: Roboto;
+}
+
+/*Page 3 settings*/
+.queryString {
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+/*Images width*/
+.urlImage {
+    width: 500px;
+}
+
+.iconImage {
+    width: 150px;
+}
+
+.autoWebImage {
+    height: 70px;
+}

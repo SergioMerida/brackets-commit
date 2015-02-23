@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>Autoweb Setup</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    </head>
+    <body>
+
+        <button class="btn no-print"><a href='javascript:window.print(); void 0;'>Print page</a></button>
+
+        <div class="container-full page1">
+         <div class="row">
+          <div class="autowebTitle">
+           <div class="autowebLogo"><img src="Images/aweblogo.png" class="autoWebImage"></div>
+           <div class="autowebTex">AutoWeb Setup</div>
+          </div><!--Autoweb Title-->
+          <div class="autowebTitleDescription">Guide to setup listings</div>
+         </div><!--Close of row-->
+        </div><!--Close of container-->
+
+        <div class="container-full footer footer1">
+         <div class="row footers">
+          <div class="footerImage">
+           <img src="Images/autowebIcon.png" class="iconImage">
+          </div><!--Close of colSetUp3-->
+          <div class="footerLine">
+          </div><!--Close of colSetUp4-->
+         </div><!--Close of row-->
+        </div><!--Close of container-->
+
+        <div class="container-full page2">
+            <div class="lasText">
+                <h3 class="TitlePageTwo">Setting up the LAS code</h3>
+                <p>1. Copy and paste the code in Box 1 before the closing body tad &lt/body> on your results page.</p>
+                <div class="firstScript">
+                    <p>
+                        <span class="indentScript">
+                            <span class="redText">&ltscript</span>
+                        </span><!--Close of indentScript-->
+                        <span class="indentCode">
+                            <span class="blueText"><br>aw-placement</span><span class="whiteEqual">=</span>
+                            <span class="yellowText">"131"</span>
+                        </span><!--Close of indentCode-->
+                        <span class="indentCode">
+                            <br><span class="blueText">src</span>=
+                            <span class="yellowText">"//cdn.awadserver.com/widget/js/awloader.min.js"></span>
+                        </span><!--Close of indentCode-->
+                        <span class="indentScript">
+                            <span class="redText"><br>&lt/script></span>
+                        </span><!--Close of indentScript-->
+                    </p>
+                </div><!--Close of firstScript-->
+                <p>2. Copy and paste the code in Box 2 on the section where you want to display our ads.</p>
+                <div class="secondScript">
+                    <p>
+                        <span class="indentScript">
+                            <span class="redText">&ltdiv </span>
+                        </span><!--Close of indentScript-->
+                        <span class="blueText">class</span><span class="whiteEqual">=</span>
+                        <span class="yellowText">"awlistings" aw-implement<span class="whiteEqual">=</span>"348"</span>
+                        <span class="redText">>&lt/div></span>
+                    </p>
+                </div><!--Close of secondScript-->
+            </div><!--Close of lasText-->
+            <div clas="lasText2 table-responsive">
+                <h3 class="TitlePageTwo">Autoweb Parameter Definitions</h3>
+                <p>Brief description of our widget parameters</p>
+                <table class="table table-hover">
+                    <thead class="thead">
+                        <tr>
+                            <th class="col-md-2">Name</th>
+                            <th class="col-md-2">Description</th>
+                            <th class="col-md-2">Parameter Example</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>* aw-implement</strong></td>
+                            <td>Specific Implementation ID provided by AutoWeb</td>
+                            <td>aw-implement="999"</td>
+                        </tr>
+                        <tr>
+                            <td><strong>* aw-placement</strong></td>
+                            <td>Your placement ID provided by AutoWeb</td>
+                            <td>aw-placement="999"</td>
+                        </tr>
+                        <tr>
+                            <td><strong>* src</strong></td>
+                            <td>URL for Autoweb's widget functionality</td>
+                            <td>src="//cdn.awadserver.com/widget/js/aw-loades.js"</td>
+                        </tr>
+                        <tr>
+                            <td><strong>aw-cta</strong></td>
+                            <td>Set your costum call to action here.<br>You can use html tags and the following tags in order<br>to display additional info:<br>{Make},{Model},{cityName},{stateName},{ZipCode}.</td>
+                            <td>aw-cta="&lth3>Find your new {Make},{Model} on {cityName},{stateName} / {ZipCode}&lt/h3>"</td>
+                        </tr>
+                        <tr>
+                            <td><strong>aw-display-count</strong></td>
+                            <td>Specific the number of ads to show</td>
+                            <td>aw-display-count="5"</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+                <strong>Important Note:</strong>Do not modify it unless it is requested.
+            </div><!--Close of lasText2-->
+        </div><!--Close of second container-full-->
+
+        <div class="container-full footer footer2">
+         <div class="row footers">
+          <div class="footerImage">
+           <img src="Images/autowebIcon.png" class="iconImage">
+          </div><!--Close of colSetUp3-->
+          <div class="footerLine">
+          </div><!--Close of colSetUp4-->
+         </div><!--Close of row-->
+        </div><!--Close of container-->
+
+        <div class="container-full page3">
+         <div class="lasText3">
+          <h3 class="TitlePageTwo">Query String parameters</h3>
+           <p class="queryString">Additionally you can pass the make / model / zip code on the query string, using the following parameters:                 <br>*Make
+            <br>*Model
+            <br>*Zipcode
+           </p>
+           <img src="Images/url.png" class="urlImage">
+         </div><!--Close of lasText3-->
+        </div><!--Close of page3-->
+
+        <div class="container-full footer footer3">
+         <div class="row footers">
+          <div class="footerImage">
+           <img src="Images/autowebIcon.png" width="150px">
+          </div><!--Close of colSetUp3-->
+          <div class="footerLine">
+          </div><!--Close of colSetUp4-->
+         </div><!--Close of row-->
+        </div><!--Close of container-->
+
+    </body>
+</html>
